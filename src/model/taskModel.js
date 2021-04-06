@@ -18,4 +18,4 @@ const TaskShema = new Schema ({
 
 //exporta para poder usar em outros locais com o nome "mongose.model"
 // e com 2 parâmetros, o nome que vamos dar a representação e o objeto que contem a estrutura de representação
-module.exports = mongoose.model('task', TaskShema)
+module.exports = mongoose.model('tasks', TaskShema)
