@@ -7,7 +7,7 @@ require("dotenv").config();
 const mongoose = require('mongoose');
 
 //mongodb://localhost do banco/nome do bando desejado
-const url = process.env.URL_DB
+const url = process.env.DATABASE_URL
 //mongodb+srv://user-deploy:<password>@dbservice.d73kg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 
 //acessa uma função para definir a url e colocar que é compativel com outras versões
