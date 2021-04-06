@@ -20,7 +20,7 @@ const TaskRoutes = require('./routes/taskRoutes');
 //usa a rota task prefixada, e executa o que tem no arquivo de rotas
 server.use('/task', TaskRoutes);
 
-server.listen(3333, ()=>{
+server.listen(process.env.PORT || 3333, ()=>{
     console.log('Api Online');
 })
 
