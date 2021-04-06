@@ -1,4 +1,4 @@
-require("dotenv").config()
+require("dotenv").config();
 //biblioteca que serve como sistema de rotas, requisições http, tratamento de exceções
 const express = require('express');
 

@@ -2,7 +2,7 @@
 Esse arquivo retorna o banco de dados conectado
 */
 
-require("dotenv").config()
+require("dotenv").config();
 
 const mongoose = require('mongoose');
 
