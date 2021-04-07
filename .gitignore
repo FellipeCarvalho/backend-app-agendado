@@ -1,11 +1,14 @@
 node_modules
 npm-debug.log
+package-lock.json
+Teste de Rotas
 
 # Local development
 *.env
 *.dev
 .DS_Store
 .vscode
+
 
 # Docker
 Dockerfile
