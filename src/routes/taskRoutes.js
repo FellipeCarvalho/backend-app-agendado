@@ -5,7 +5,7 @@ const express = require("express");
 const router = express.Router();
 
 //coloca o arquivo de controller aqui
-const TaskController = require("../controller/TaskController");
+const TaskController = require("../controller/taskController");
 
 //coloca o arquivo das validações aqui
 const TaskValidation = require("../middlewares/taskValidation");
